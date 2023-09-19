@@ -128,11 +128,9 @@ internal class GildedRoseTest {
     fun backstagePasses(item: Item, days: Int, expectedSellIn: Int, expectedQuality: Int) {
         // Given
         val items = listOf(item)
-        println(item)
 
         // When
         val app = createAndUpdateApp(items, days)
-        println(app.items[0])
 
         // Then
         assertThat(app.items[0].sellIn).isEqualTo(expectedSellIn)
