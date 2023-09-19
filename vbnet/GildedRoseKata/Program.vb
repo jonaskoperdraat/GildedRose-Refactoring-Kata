@@ -47,7 +47,7 @@ Module Program
                 New Item With {
                 .Name = "Conjured Mana Cake",
                 .SellIn = 3,
-                .Quality = 10
+                .Quality = 6
                 }
                 }
         Dim app = New GildedRose(Items)
